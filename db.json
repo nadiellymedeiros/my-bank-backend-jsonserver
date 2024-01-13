@@ -1,9 +1,130 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "userData": [
+    {
+      "name": "Joarez Alves",
+      "email": "joarez@teste.com",
+      "password": "1234",
+      "institution": "Nubank",
+      "agency": "0001",
+      "currentAccount": "99999999-9",
+      "bank": "0260",
+      "amount": 1100,
+      "id": 1
+    },
+    {
+      "name": "Henrique Alves",
+      "email": "henrique@teste.com",
+      "password": "1234",
+      "institution": "Nubank",
+      "agency": "0001",
+      "currentAccount": "99999998-8",
+      "bank": "0260",
+      "amount": 1040,
+      "id": 2
+    },
+    {
+      "name": "Nadielly Xavier",
+      "email": "nadielly@teste.com",
+      "password": "1234",
+      "institution": "Nubank",
+      "agency": "0001",
+      "currentAccount": "044568-7",
+      "bank": "0260",
+      "amount": 1930,
+      "id": 3
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+
+  "history": [
+    {
+      "id": 101,
+      "idDonorUser": 3,
+      "nameDonorUser": "Nadielly Xavier",
+      "idRecipientUserUser": 2,
+      "nameRecipientUser": "Henrique Alves",
+      "type": "transfer",
+      "amount": 180,
+      "date": "03/01/24"
+    },
+    {
+      "idDonorUser": 3,
+      "nameDonorUser": "Nadielly Xavier",
+      "idRecipientUserUser": 1,
+      "nameRecipientUser": "Joarez Alves",
+      "type": "transfer",
+      "amount": 10,
+      "date": "08/01/2024",
+      "id": 102
+    },
+    {
+      "idDonorUser": 3,
+      "nameDonorUser": "Nadielly Xavier",
+      "idRecipientUserUser": 3,
+      "nameRecipientUser": "Nadielly Xavier",
+      "type": "withdrawal",
+      "amount": 10,
+      "date": "08/01/2024",
+      "id": 103
+    },
+    {
+      "idDonorUser": 3,
+      "nameDonorUser": "Nadielly Xavier",
+      "idRecipientUserUser": 3,
+      "nameRecipientUser": "Nadielly Xavier",
+      "type": "deposit",
+      "amount": 20,
+      "date": "08/01/2024",
+      "id": 104
+    },
+    {
+      "idDonorUser": 2,
+      "nameDonorUser": "Henrique Alves",
+      "idRecipientUserUser": 3,
+      "nameRecipientUser": "Nadielly Xavier",
+      "type": "transfer",
+      "amount": 50,
+      "date": "09/01/2024",
+      "id": 105
+    },
+    {
+      "idDonorUser": 2,
+      "nameDonorUser": "Henrique Alves",
+      "idRecipientUserUser": 1,
+      "nameRecipientUser": "Joarez Alves",
+      "type": "transfer",
+      "amount": 20,
+      "date": "09/01/2024",
+      "id": 106
+    },
+    {
+      "idDonorUser": 2,
+      "nameDonorUser": "Henrique Alves",
+      "idRecipientUserUser": 2,
+      "nameRecipientUser": "Henrique Alves",
+      "type": "withdrawal",
+      "amount": 5,
+      "date": "09/01/2024",
+      "id": 107
+    },
+    {
+      "idDonorUser": 2,
+      "nameDonorUser": "Henrique Alves",
+      "idRecipientUserUser": 2,
+      "nameRecipientUser": "Henrique Alves",
+      "type": "deposit",
+      "amount": 15,
+      "date": "09/01/2024",
+      "id": 108
+    },
+    {
+      "idDonorUser": 1,
+      "nameDonorUser": "Joarez Alves",
+      "idRecipientUserUser": 1,
+      "nameRecipientUser": "Joarez Alves",
+      "type": "deposit",
+      "amount": 20,
+      "date": "09/01/2024",
+      "id": 109
+    }
+  ]
 }
